@@ -11,7 +11,7 @@ set -e
 git clone --depth 1 --branch v2.0.1 https://github.com/Rat-OS/RatOS.git
 
 set -a
-source ./RatOS/src/config
+source ./RatOS/config/default
 set +a
 
 echo "Installing common.sh"
